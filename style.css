@@ -1,0 +1,70 @@
+
+
+
+
+body {
+   background-image: url('/img/Seu-carro-está-realmente-seguro-na-garagem.png');
+   background-size: cover;
+   background-attachment: fixed;
+}
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/* Estilize as classes .slide conforme necessário */
+
+.navbarnavbar-expand-lgbg-body-tertiary{
+    font-size: 24px;
+    padding-left: 150px;
+}
+h4{
+    text-align: center;
+color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: darkred;
+}
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 700px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 40%;
+        right: 50%;
+    }
+
+    #meuSlider {
+        width: 700px;
+        height: 400px;
+    }
+
+}
